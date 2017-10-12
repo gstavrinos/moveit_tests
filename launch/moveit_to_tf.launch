@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+
+<node pkg="moveit_tests" type="moveit_to_tf.py" respawn="false" name="moveit_to_tf" output="screen">
+        <rosparam file="$(find moveit_tests)/config/moveit_to_tf.yaml" command="load" />
+</node>
+
+</launch>

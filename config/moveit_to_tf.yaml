@@ -1,0 +1,7 @@
+target_tf: '/target'
+base_tf: '/base_link'
+test_mode: False
+# x, y, z only used in test mode
+x: 0.1
+y: 0.4
+z: 0.8
